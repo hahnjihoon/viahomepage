@@ -1,5 +1,6 @@
 import React from "react";
 import sampleImage from "../assets/sample1.jpg";
+import NaverPayButton from "../components/NaverPayButton";
 
 const Home = () => {
   const containerStyle = {
@@ -31,6 +32,7 @@ const Home = () => {
       <h3 style={textStyle}>010-1234-1234</h3>
       <h4 style={textStyle}>account</h4>
       <h3 style={textStyle}>우리은행 : 1002-444-678945</h3>
+      <NaverPayButton></NaverPayButton>
     </div>
   );
 };
